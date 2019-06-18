@@ -12,3 +12,25 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+.card {
+    background: whitesmoke;
+    border-radius: 10px;
+    weight: 150px;
+    height: 100px;
+    -webkit-box-shadow: 3px 3px 5px 6px rgb(0, 0, 0); 
+  -moz-box-shadow:    3px 3px 5px 6px rgb(0, 0, 0);  
+  box-shadow:         3px 3px 5px 6px rgb(0, 0, 0);
+}
+.card__name {
+    font-style: bold;
+}
+.card__function {
+    font-style: italic;
+}
+.card__story{
+
+}
+.card__links {
+    font-size: 10px;
+}
