@@ -57,11 +57,13 @@ body {
     font-weight: bold;
     font-size: 36px;
     color: whitesmoke;
+    text-shadow: 5px 5px 0 rgb(5,0,87);
 }
 .person__photo {
     width: 100px;
     height: 100px;
     margin-right: 32px;
+    border-radius: 50%;
 
 }
 
