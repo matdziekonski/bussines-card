@@ -11,26 +11,66 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    min-height: 100vh;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .card {
-    background: whitesmoke;
-    border-radius: 10px;
-    weight: 150px;
-    height: 100px;
-    -webkit-box-shadow: 3px 3px 5px 6px rgb(0, 0, 0); 
-  -moz-box-shadow:    3px 3px 5px 6px rgb(0, 0, 0);  
-  box-shadow:         3px 3px 5px 6px rgb(0, 0, 0);
+    
+    border-radius: 16px;
+    padding: 32px;
+    max-width: 624px;
+    width: 100%;
+   
+    -webkit-box-shadow: 3px 3px 5px 6px rgb(255, 255, 255); 
+  -moz-box-shadow:    3px 3px 5px 6px rgb(255, 255, 255);  
+  box-shadow:         3px 3px 5px 6px rgb(255, 255, 255);
 }
-.card__name {
+.person{
+    display: flex;
+    align-items: flex-start;
+}
+.person__description{
+    font-size: 16px;
+    line-height: 22px;
+    color: whitesmoke;
+    
+}
+.person__description--last {
+    margin-bottom: 32px;
+}
+.person__header {
     font-style: bold;
+    margin-bottom: 32px;
 }
-.card__function {
-    font-style: italic;
+.person__link {
+    color: whitesmoke;
+    text-decoration: none;
 }
-.card__story{
+.person__name {
+    margin: 0;
+    font-weight: bold;
+    font-size: 36px;
+    color: whitesmoke;
+}
+.person__photo {
+    width: 100px;
+    height: 100px;
+    margin-right: 32px;
 
 }
-.card__links {
-    font-size: 10px;
+
+.person__position {
+    color: whitesmoke;
+    font-style: italic;
+}
+
+.person__special {
+    color: seagreen;
+    
 }
