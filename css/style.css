@@ -1,13 +1,16 @@
 html {
     box-sizing: border-box
 }
-*, *:after, *:before {
+
+*,
+*:after,
+*:before {
     box-sizing: inherit;
 }
-   
-body { 
-    background: rgb(5,0,87);
-    background: linear-gradient(0deg, rgba(5,0,87,1) 0%, rgba(6,6,139,1) 18%, rgba(0,164,198,1) 100%);
+
+body {
+    background: rgb(5, 0, 87);
+    background: linear-gradient(0deg, rgba(5, 0, 87, 1) 0%, rgba(6, 6, 139, 1) 18%, rgba(0, 164, 198, 1) 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -17,48 +20,56 @@ body {
     align-items: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
 
 .card {
-    
+
     border-radius: 16px;
     padding: 32px;
     max-width: 624px;
     width: 100%;
-   
-    -webkit-box-shadow: 3px 3px 5px 6px rgb(255, 255, 255); 
-  -moz-box-shadow:    3px 3px 5px 6px rgb(255, 255, 255);  
-  box-shadow:         3px 3px 5px 6px rgb(255, 255, 255);
+
+    -webkit-box-shadow: 3px 3px 5px 6px rgb(255, 255, 255);
+    -moz-box-shadow: 3px 3px 5px 6px rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px 6px rgb(255, 255, 255);
 }
-.person{
+
+.person {
     display: flex;
     align-items: flex-start;
 }
-.person__description{
+
+.person__description {
     font-size: 16px;
     line-height: 22px;
-    color: whitesmoke;
-    
+    color: black;
+    width: 100%;
+
 }
+
 .person__description--last {
     margin-bottom: 32px;
+    
 }
+
 .person__header {
     font-style: bold;
     margin-bottom: 32px;
 }
+
 .person__link {
-    color: whitesmoke;
+    color:black;
     text-decoration: none;
 }
+
 .person__name {
     margin: 0;
     font-weight: bold;
-    font-size: 36px;
-    color: whitesmoke;
-    text-shadow: 5px 5px 0 rgb(5,0,87);
+    font-size: 24px;
+    color:black;
 }
+
 .person__photo {
     width: 100px;
     height: 100px;
@@ -68,11 +79,11 @@ body {
 }
 
 .person__position {
-    color: whitesmoke;
+    color:black;
     font-style: italic;
 }
 
 .person__special {
     color: seagreen;
-    
+
 }
